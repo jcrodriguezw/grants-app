@@ -5,7 +5,7 @@ import { announcement } from '../../graphql/queries'
 import { Typography, CircularProgress, Button } from '@material-ui/core'
 import { useQuery } from '@apollo/client';
 import './styles.css'
-import Synopsis from '../Synopsis';
+import Synopsis from '../synopsis';
 import AditionalInfo from '../AditionalInfo.js';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import Dialog from './Dialog'
