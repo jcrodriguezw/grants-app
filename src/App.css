@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+.synopsis {
+  border:1px solid lightgrey;
+  padding: 2em 4em 2em 2em;
+  border-radius:10px
+}
+
+.synopsis > div {
+  display:grid;
+  grid-template-columns:auto 1fr;
+  column-gap:1em;
+  margin: 5px 0
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

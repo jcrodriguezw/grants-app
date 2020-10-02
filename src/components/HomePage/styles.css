@@ -1,0 +1,17 @@
+.homeTitle {
+  margin:2em;
+  padding:0 2em;
+  display:flex;
+  justify-content:space-between;
+  align-Items:center
+}
+
+.table {
+  margin: 0 2em;
+  padding: 0 2em
+}
+
+.homeLink {
+  text-decoration: none;
+  color: #000000
+}

@@ -1,0 +1,17 @@
+.footer {
+  background: #3f51b5 ;
+  height: 150px ;
+  color: white ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center 
+}
+
+.footer > div {
+  text-align: center;
+}
+
+.footer > div > a {
+  color:white;
+  text-decoration: none;
+}

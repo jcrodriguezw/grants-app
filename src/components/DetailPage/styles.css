@@ -1,0 +1,39 @@
+.detailPageInfo {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.detailMenu {
+  display:grid;
+  grid-template-columns:250px 1fr;
+  column-gap:2em;
+  margin: 2em 0;
+  padding: 2em 0;
+}
+
+.detailMenu > div {
+  min-height: 314px;
+  height: 100%;
+}
+
+.detailMenuItem {
+  box-shadow:0 3px 3px lightgray;
+  width:100%;
+  height:60px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 2em 0;
+  cursor: pointer;
+}
+
+.detailLink {
+  text-decoration: none;
+  color: black
+}
+
+.circularProgress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
